@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de Produto - Loja de Cosméticos</title>
+    <link rel="stylesheet" href="../compra.css">
+</head>
+<body>
+
+    <section class="produto">
+        <div class="produto-imagem">
+            <img src="../img/espuma.png" alt="Gloss Líquido">
+        </div>
+        <div class="produto-info">
+            <h1>Espuma Facial</h1>
+            <p class="preco">R$ 90,00</p>
+
+            <div class="opcoes">
+                <label for="tamanho">Tamanho</label>
+                <select id="tamanho" name="tamanho">
+                    <option value="50ml">50ml</option>
+                </select>
+            </div>
+
+            <div class="opcoes">
+                <label for="quantidade">Quantidade</label>
+                <input type="number" id="quantidade" name="quantidade" value="1" min="1" max="10">
+            </div>
+
+            <button class="btn-compra">Adicionar ao Carrinho</button>
+            <button class="btn-compra btn-comprar">Comprar Agora</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; DERMALUXO 2024.</p>
+    </footer>
+</body>
+</html>

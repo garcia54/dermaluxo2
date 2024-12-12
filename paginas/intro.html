@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="https://kit.fontawesome.com/6dda5f6271.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../intro.css">
+    <title>Vídeo à Esquerda</title>
+</head>
+<body>
+    <body>
+        <header>
+            <div class="container2">
+                <div class="logo"><a href="../index.html"><img src="../img/logo.png"></div></a>
+                <div class="menu">
+                  
+                    <nav>
+                        <div class="menu nav a">
+                        <a href="intro.html">Quem somos nós?</a>
+                        <a href="labios.html">Lábios</a>
+                        <a href="pele.html">Pele</a>
+                        <a href="olhos.html">Olhos</a>
+                        <a href="itens.html">Itens</a>
+                        <a href="promocoes.html">Promoções</a>
+                    </nav>
+                </div>
+                </div>
+                <br>
+                <!--O formulario buscará do servidor do Google. Será aberta numa nova aba-->
+            <form action="https://Google.com/search" method="get" target="_blank">
+                <!--inclusão do campo de Pesquisa -->
+                <div class="search-bar">
+                 
+                    <input type="text" placeholder="Buscar...">
+                    <button type="submit"><img src="../img/lupa.png"></buton>
+            </form>
+        </div>
+    <script>
+        function resizeMenu() {
+            if (window.scrolly > 50) {
+                navbar.classList.add('shrink');
+            }  else  {
+    
+                navbar.classList.remove('shrink');
+            }
+            }
+            window.addEventListener('scroll', resizeMenu);
+    </script>
+    
+     </div>
+    </header>
+    
+
+    <div class="container1">
+        <div class="video-container">
+        
+            <video muted autoplay loop id="video-bg">
+                <source src="../video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="content">
+            <h1>DermaLuxo</h1>
+            <p> Somos uma Empresa que se preocupa unicamente e
+                exclusivamente,coma sua pele!</p>
+            <p> Temos produtos de alta qualidade, veganos e naturais,
+                perfeitos para peles secas,oleosas... de todos os tipos. </p>
+            <p> Surgimos em 1900 e desde então, nosso objetivo tem
+                sido alcançado: restaurar a autoestima e realçar a
+                beleza dos nossos clientes. </p>
+            <p> Para quem acredita que skincare é só para mulheres, o
+                nosso público abrange todos as idades, gêneros, entre
+                outras. </p>
+        </div>
+    </div>
+</body>
+</html>
